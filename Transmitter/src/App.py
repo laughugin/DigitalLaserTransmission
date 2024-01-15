@@ -87,7 +87,7 @@ class TransmitterApp(tk.Tk):
         self.button.grid(row=2, column=1)  # Use grid layout
         self.input_text.bind("<Return>", self.button_clicked)
         
-        self.connect_arduino()                        ########################## temp
+        #self.connect_arduino()                        ########################## temp
     #Load previous message in messagePath
     def load_message(self):
         f = self.chat_text.config(state='normal')
